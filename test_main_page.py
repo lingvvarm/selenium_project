@@ -5,7 +5,6 @@ import pytest
 from .pages.login_page import LoginPage
 from .pages.basket_page import BasektPage
 
-@pytest.mark.login_guest
 class TestLoginFromMainPage():
     def test_guest_can_go_to_login_page(self, browser):
         link = "http://selenium1py.pythonanywhere.com/"
